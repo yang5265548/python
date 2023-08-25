@@ -6,3 +6,4 @@ radius=float(input("Enter the radius: "))
 areaCircle=pi * radius*radius
 print("Are of circle areaCircle{:.2f}".format(areaCircle))
 print(f"Are of circle areaCircle {areaCircle:.4f}")
+print("test")
