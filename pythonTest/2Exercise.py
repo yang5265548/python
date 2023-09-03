@@ -74,6 +74,7 @@ print("The 3-digit code is : ",threeDigitCode," and The 4-digit code is : ",four
 # f=str(random.randint(1,6))
 # g=str(random.randint(1,6))
 #
+
 # print("The 3-digit code is : ",a+b+c," and The 4-digit code is : ",d+e+f+g)
 
 
