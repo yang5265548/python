@@ -51,10 +51,10 @@ else:
         if num%i==0:
            flag=False
            break
-if flag:
-    print("the num is prime")
-else:
-    print("the num is not prime")
+    if flag:
+       print("the num is prime")
+    else:
+       print("the num is not prime")
 
 
 
