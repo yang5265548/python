@@ -2,38 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>module2_6</title>
+    <title>module2_7</title>
+    <script src="2_7.js" defer></script>
 </head>
 <body>
 <header>
     <h1>Hello assignments~~</h1>
     <ul id="target"></ul>
 </header>
-<script>
-  'use strict';
-  const maxsides=parseInt(prompt("please enter the maxsides of the dice: "))
-  let numArray = [];
-  while (true) {
-    const num = roll();
-    if (num === maxsides) {
-      numArray.push(num);
-      break;
-    } else {
-      numArray.push(num);
-    }
-  }
-  const ul = document.querySelector('#target');
-  for (let i = 0; i < numArray.length; i++) {
-    const li = document.createElement('li');
-    li.innerText = numArray[i];
-    ul.appendChild(li);
-  }
+<!--<script>-->
+<!--  'use strict';-->
+<!--  const maxsides=parseInt(prompt("please enter the maxsides of the dice: "))-->
+<!--  let numArray = [];-->
+<!--  while (true) {-->
+<!--    const num = roll();-->
+<!--    if (num === maxsides) {-->
+<!--      numArray.push(num);-->
+<!--      break;-->
+<!--    } else {-->
+<!--      numArray.push(num);-->
+<!--    }-->
+<!--  }-->
+<!--  const ul = document.querySelector('#target');-->
+<!--  for (let i = 0; i < numArray.length; i++) {-->
+<!--    const li = document.createElement('li');-->
+<!--    li.innerText = numArray[i];-->
+<!--    ul.appendChild(li);-->
+<!--  }-->
 
-  function roll() {
-    return Math.floor(Math.random() * maxsides + 1);
-  }
+<!--  function roll() {-->
+<!--    return Math.floor(Math.random() * maxsides + 1);-->
+<!--  }-->
 
 
-</script>
+<!--</script>-->
 </body>
 </html>
